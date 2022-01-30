@@ -1,0 +1,22 @@
+/part1
+
+/add_remove_elements
+
+//div[contains(@id,'content')]//*[text() = 'Add/Remove Elements']
+
+//div[contains(@id,'content')]//button[contains(@onclick,'addElement()')]
+
+//div[contains(@id,'elements')]//button[contains(@onclick,'deleteElement()')]
+
+//div[contains(@id,'page-footer')]//*[contains(@href,'http://elementalselenium.com/')]
+
+/tables
+
+//div[contains(@class,'example')]//*[(text()='Data Tables')]
+
+//table[contains(@id,'table1')]//*[contains(@class,'header')]
+//table[contains(@id,'table2')]//*[contains(@class,'header')]
+
+//table[contains(@id,'table2')]//*[(text()= 'John')]
+
+//table[contains(@id,'table1')]//*[(text() = 'Doe']//*[(text() = 'Jason']//*[(text()= 'http://www.jdoe.com')]
